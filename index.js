@@ -137,11 +137,11 @@ module.exports = function(sails) {
         // Whenever something changes in those dirs, run eslint
         // Debounce the event handler so that it only fires after receiving all of the change
         // events.
-        watcher.on('all', sails.util.debounce(function(action, path, stats) {
-          sails.log.verbose('Detected API change -- running eslint...');
+        //watcher.on('all', sails.util.debounce(function(action, path, stats) {
+          //sails.log.verbose('Detected API change -- running eslint...');
 
-          processingQueue([path], format);
-        }, 100));
+          //processingQueue([path], format);
+        //}, 100));
 
         return cb();
       }
