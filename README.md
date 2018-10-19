@@ -1,3 +1,7 @@
+# updated
+
+This version of sails-eslint has been modified to work with Sails.js v1.1.0-2
+
 # sails-eslint
 [![npm version](https://badge.fury.io/js/sails-eslint.svg)](https://npmjs.org/package/sails-eslint) [![Dependency Status](https://img.shields.io/david/jasancheg/sails-eslint.svg?style=flat)](https://david-dm.org/jasancheg/sails-eslint)
 
